@@ -1,11 +1,10 @@
 import React from 'react';
+import SignIn from '../SignIn/SignIn';
 import '../../App.css';
 
 const SignUp = () => {
     return (
-        <h1 className='sign-up'>
-           SIGN UP 
-        </h1>
+        <SignIn />
     )
 }
 
